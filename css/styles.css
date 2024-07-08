@@ -219,15 +219,27 @@ img {
     /* flex-basis: calc ((100% - 3 * 24px) / 4); */
 }
 
-.icon {
-    display: inline-flex;
-    width: 64px;
-    height: 64px;
-}
+
 
 .content-item {
     /* flex-basis: calc ((100% - 3 * 24px) / 4); */
     flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
+.content-box-icon {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-icon {
+    /* display: flex; */
+    /* fill: transparent; */
+    align-items: center;
+    justify-content: center;
+
 }
 
 .content-list-item-title {
