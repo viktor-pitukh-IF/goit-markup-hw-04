@@ -252,9 +252,9 @@ img {
 }
 
 .content-icon {
-    display: inline-flex;
+    /* display: inline-flex; */
     text-align: center;
-
+    fill: aquamarine;
 }
 
 .content-list-item-title {
