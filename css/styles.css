@@ -113,7 +113,6 @@ img {
 
 
 /**** ????????????? *****/
-/* .header-menu-item:active, */
 .item-line::after {
     /* Horizontal line */
     display: inline-block;
@@ -253,16 +252,9 @@ img {
 }
 
 .content-icon {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 70px;
-    height: 70px;
-    margin-bottom: 30px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    display: inline-flex;
     text-align: center;
-}
+
 }
 
 .content-list-item-title {
