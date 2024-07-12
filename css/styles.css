@@ -252,9 +252,16 @@ img {
 }
 
 .content-icon {
-    /* display: inline-flex; */
+    display: inline-block;
     text-align: center;
-    fill: aquamarine;
+    /* width: 70px;
+    height: 70px; */
+}
+
+.icon-antenna {
+    width: 70px;
+    height: 70px;
+    fill: #fff;
 }
 
 .content-list-item-title {
