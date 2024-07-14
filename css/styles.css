@@ -341,9 +341,32 @@ img {
     color: #434455;
 }
 
-.team-icon {
+.team-social-list{
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+}
+
+.team-social-link {
     width: 40px;
     height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team-social-icon {
+    background-color: #4d5ae5;
+    fill: #4d5ae5;
+}
+
+
+.team-social-link:hover {
+    background-color: #31d0aa;
+    fill: #31d0aa;///
 }
 
 /*=====================================*/
@@ -424,6 +447,7 @@ img {
 }
 
 /* .footer-wrap {
+    display: flex;
     width: 264px;
     height: 112px;
     padding-top: 100px;
@@ -457,6 +481,51 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.social-media-list {
+    display: flex;
+    width: 208px;
+    height: 80px;
+    padding-left: 120px;
+}
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+}
+
+.firm-social-list{
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+}
+
+.firm-social-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*fill: #4d5ae5;*/
+}
+
+.firm-social-icon {
+    background-color: #4d5ae5;
+
+}
+
+
+.firm-social-link:hover {
+    fill: #31d0aa;
+    background-color: #31d0aa;
+
 }
 
 /*=====================================*/
